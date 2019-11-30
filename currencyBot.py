@@ -4,7 +4,7 @@ import pageParsing
 from PIL import Image
 import datetime
 
-bot = telebot.TeleBot('1052209993:AAH92AhBmC0pjkYSwfJuNi8k4ljgFUprNRU')
+bot = telebot.TeleBot('') ######################
 
 date = datetime.datetime.now().strftime("%d-%m-%Y")
 currency = ''

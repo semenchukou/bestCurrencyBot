@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from matplotlib import pyplot as plt
 import io
 
-api_key = '86cdb721-85dc-4543-82cc-da31de3d9c96'
+api_key = '' #######################
 
 def get_html(url):
     response = urllib.request.urlopen(url)
